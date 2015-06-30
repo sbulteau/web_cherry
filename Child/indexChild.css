@@ -1,0 +1,25 @@
+body { 
+  margin:0; /* fond d'écran */
+  padding:0;
+  background: url(image/fond/campagne.png) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+.imageflottante
+{
+    position: absolute;
+	bottom : 10px;
+	left : 10px;
+	max-width: 9%;
+	height: auto;
+}
+
+.imagecarte
+{
+    position: relative;
+	top: 50%;
+	left:50%;
+	max-width: 100%;
+	height: auto;
+}

@@ -1,0 +1,44 @@
+body { 
+  margin:0; /* fond d'écran */
+  padding:0;
+  background: url(soleilVert.png) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+
+}
+h1 {
+
+    text-align: center;
+    background : white;
+    opacity : 0.8;
+    border: 3px green dashed;
+    box-shadow: 4px 4px 4px olive;
+    text-shadow: 1px 1px 4px black;
+    margin-bottom: 40px;
+}
+
+p {
+	color: black;
+	text-align: left;
+	width : 50%;
+	padding-left: 5%;
+}
+
+
+.imageflottante
+{
+    position: absolute;
+	bottom : 10px;
+	left : 10px;
+	max-width: 9%;
+	height: auto;
+}
+
+.imagecarte
+{
+    position: relative;
+	top: 50%;
+	left:50%;
+	max-width: 10%;
+	height: auto;
+}
